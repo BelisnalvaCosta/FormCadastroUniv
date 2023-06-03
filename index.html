@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Formulário</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+<h1> <a name="formulario">Formulário</a> </h1>
+<div class="form">
+    <form action="./result.html" method="GET">
+        <div class="form-header">
+            <div class="form-title">
+                <h1>Formulário para Cadastro</h1>
+            </div>
+        </div>
+        <div class="input-group">
+            <div class="input-box">
+                <label for="firstname">Primeiro Nome</label>
+                <input id="firstname" type="text" name="firstname" placeholder="Digite seu primeiro nome" required>
+            </div>
+            <div class="input-box">
+                <label for="lastname">Sobrenome</label>
+                <input id="lastname" type="text" name="lastname" placeholder="Digite seu sobrenome" required>
+            </div>
+            <div class="input-box">
+                <label for="email">E-mail</label>
+                <input id="email" type="email" name="email" placeholder="Digite seu e-mail">
+            </div>
+            <div class="input-box">
+                <label for="telephone">Telefone</label>
+                <input id="telephone" type="tel" name="telephone" placeholder="(xx) xxxx-xxxx">
+            </div>
+            <div class="input-box">
+                <label for="password">Senha</label>
+                <input id="password" type="password" name="password" maxlength="8" placeholder="Digite sua senha" required>
+            </div>
+            <div class="input-box">
+                <label for="confirm-password">Confirmação da senha</label>
+                <input id="confirm-password" type="password" name="confirm-password" placeholder="Confirme a sua senha" required>
+            </div>
+        </div>
+        <div class="form-footer">
+            <div class="clear-button">
+                <button type="reset">Limpar</button>
+                <div class="input-box">
+                </div>
+                <div class="login-button">
+                    <button type="submit">Entrar</button>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+<script src="assets/script.js"></script>
+</body>
+</html>
